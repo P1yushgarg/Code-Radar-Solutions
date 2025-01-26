@@ -2,7 +2,8 @@
 void main(){
     int a;
     scanf("%d %d",&a);
-    if(a*a==a){
+    b=a*a;
+    if(b==a){
         printf("Yes");
     }
     else{
