@@ -1,8 +1,8 @@
 #include <stdio.h>
 void main(){
-    int a,b;
-    scanf("%d %d",&a,&b);
-    if(sqrt(b)==a){
+    int a;
+    scanf("%d %d",&a);
+    if(a*a==a){
         printf("Yes");
     }
     else{
