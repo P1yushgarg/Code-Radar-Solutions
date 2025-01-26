@@ -8,4 +8,7 @@ void main(){
     else if(ch>="A" || ch<="Z"){
         printf("Uppercase");
     }
+    else{
+        printf("Not an alphabet");
+    }
 }
