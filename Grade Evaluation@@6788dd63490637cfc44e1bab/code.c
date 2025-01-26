@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main(){
-    char c;
-    scanf("%c",&c);
+    char ch;
+    scanf("%c",&ch);
     if(c=='A'){
         printf("Excellent");
     }
@@ -16,5 +16,8 @@ void main(){
     }
     else if(ch=='F'){
         printf("Fail");
+    }
+    else{
+        printf("Invalid grade");
     }
 }
