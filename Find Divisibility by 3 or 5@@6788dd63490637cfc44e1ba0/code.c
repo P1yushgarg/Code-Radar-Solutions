@@ -11,7 +11,7 @@ void main(){
     else if(a%5==0){
         printf("Divisible by 5");
     }
-    if{
+    else{
         printf("Not Divisible");
     }
 }
