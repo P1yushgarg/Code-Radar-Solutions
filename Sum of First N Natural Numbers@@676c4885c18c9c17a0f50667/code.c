@@ -2,8 +2,8 @@
 void main(){
     int n,i,s=0;
     scanf("%d",&n);
-    i=n%10;
-    s=s+i;
-    n=n/10;
+    for(i=1;i<6;i++){
+        s=s+i;
+    }
     printf("%d",s);
 }
