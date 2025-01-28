@@ -5,5 +5,5 @@ void main(){
     i=n%10;
     s=s+i;
     n=n/10;
-    printf(s);
+    printf("%d",s);
 }
