@@ -13,4 +13,5 @@ void main(){
             printf("%d",l);
         }
     }
+    printf("\n")
 }
