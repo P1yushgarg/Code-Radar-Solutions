@@ -12,6 +12,6 @@ void main(){
         for (l=2;l<n+1;l++){
             printf("%d",l);
         }
+        printf("\n");
     }
-    printf("\n")
 }
