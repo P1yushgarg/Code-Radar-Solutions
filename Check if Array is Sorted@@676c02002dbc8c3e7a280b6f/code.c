@@ -8,7 +8,7 @@ void main(){
     }
     for(i=1;i<n;i++){
         if(a[i]<a[i-1]){
-            sorted 0;
+            sorted=0;
             break;
         }
     }
