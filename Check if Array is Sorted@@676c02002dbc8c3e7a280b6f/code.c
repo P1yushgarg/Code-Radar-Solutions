@@ -1,19 +1,18 @@
 #include <stdio.h>
 void main(){
-    int n,i,max;
+    int n,i,sorted=1;
     scanf("%d",&n);
     int a[n],b[n];
     for (i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    b[n]=a[n];
-    max=a[0];
     for(i=1;i<n;i++){
-        if(a[i]>a[0]){
-            a[n]=printf("%d",a[i]);
+        if(a[i]<a[i-1]){
+            sorted 0;
+            break;
         }
     }
-    if(a[n]==b[n]){
+    if(sorted){
         printf("Sorted");
     }
     else{
