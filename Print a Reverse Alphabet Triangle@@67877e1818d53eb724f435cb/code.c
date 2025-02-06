@@ -6,6 +6,6 @@ void main(){
         for(j=n;j>0;j--){
             printf("%c",'A'+j);
         }
-        printf("\n")
+        printf("\n");
     }
 }
