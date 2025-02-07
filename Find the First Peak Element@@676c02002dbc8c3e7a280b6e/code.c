@@ -10,6 +10,10 @@ void main(){
     for(i=0;i<n;i++){
         if(a[i]>m){
             m=a[i];
+            break;
+        }
+        else{
+            printf("%d",-1);
         }
     }
      printf("%d\n", m);
