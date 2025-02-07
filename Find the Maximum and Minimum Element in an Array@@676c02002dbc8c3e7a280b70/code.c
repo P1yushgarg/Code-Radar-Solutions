@@ -10,11 +10,11 @@ void main(){
     min=a[0];
     for(i=0;i<n;i++){
         if(a[i]>max){
-            printf("%d",a[i])
+            printf("%d",a[i]);
         }
         else if(a[i]<min){
-            printf("%d",a[i])
+            printf("%d",a[i]);
         }
-        
+
     }
 }
