@@ -3,7 +3,7 @@ void main(){
     int a,b;
     scanf("%d",&a);
     b=a%10;
-    printf("%d",b)
+    printf("%d",b);
     // if(b==1){
     //     printf("Set");
     // }
