@@ -11,10 +11,6 @@ void main(){
         if(a[i]>m){
             m=a[i];
         }
-        else{
-
-        }
     }
      printf("%d\n", m);
-     printf("%d",-1);
 }
