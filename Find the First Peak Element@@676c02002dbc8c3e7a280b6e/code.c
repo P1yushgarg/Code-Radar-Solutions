@@ -12,9 +12,6 @@ void main(){
             m=a[i];
             break;
         }
-        else{
-            printf("%d",-1);
-        }
     }
      printf("%d\n", m);
 }
