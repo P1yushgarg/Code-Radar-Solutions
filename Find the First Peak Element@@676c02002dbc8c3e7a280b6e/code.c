@@ -12,6 +12,9 @@ void main(){
             m=a[i];
              printf("%d\n", m);
         }
+        else{
+            printf("-1");
+        }
     }
     
 }
