@@ -4,7 +4,7 @@ void main(){
     scanf("%d",&n);
     int a[n];
     for(i=0;i<n;i++){
-        scanf("%d",&a[n]);
+        scanf("%d",&a[i]);
     }
     max=a[0];
     min=a[0];
@@ -15,6 +15,5 @@ void main(){
         else if(a[i]<min){
             printf("%d",a[i]);
         }
-
     }
 }
