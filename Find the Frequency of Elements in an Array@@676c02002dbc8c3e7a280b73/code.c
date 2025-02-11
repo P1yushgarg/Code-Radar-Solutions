@@ -10,7 +10,8 @@ void main(){
         if(a[i]==o){
             c++;
         }
-        printf("%d %d",o,c);
+        
     }
+    printf("%d %d",o,c);
     
 }
