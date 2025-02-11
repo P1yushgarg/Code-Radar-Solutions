@@ -12,5 +12,5 @@ void main(){
             c++;
         }
     }
-    printf("%d %d",n,c);
+    printf("%d %d",o,c);
 }
