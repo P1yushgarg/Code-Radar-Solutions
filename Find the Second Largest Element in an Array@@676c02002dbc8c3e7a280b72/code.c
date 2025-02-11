@@ -10,6 +10,7 @@ void main(){
     for(i=0;i<n;i++){
         if(a[i]>max){
             printf("%d",a[i-1]);
+            break;
         }
     }
 }
