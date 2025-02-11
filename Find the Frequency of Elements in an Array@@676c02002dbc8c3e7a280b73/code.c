@@ -6,7 +6,6 @@ void main(){
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    scanf("%d",&o);
     for(i=0;i<n;i++){
         if(a[i]==o){
             c++;
