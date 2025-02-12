@@ -25,6 +25,6 @@ void main(){
     if(second_max != -1){
         printf("%d", second_max);
     } else {
-        printf("No second maximum found");
+        printf("%d",-1);
     }
 }
