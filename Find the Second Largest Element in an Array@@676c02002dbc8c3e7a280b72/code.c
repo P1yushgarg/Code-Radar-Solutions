@@ -22,5 +22,5 @@ void main(){
     }
     else {
         printf("%d",-1);
-    },,
+    }
 }
