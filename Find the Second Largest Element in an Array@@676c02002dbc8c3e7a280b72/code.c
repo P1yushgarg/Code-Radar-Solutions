@@ -43,6 +43,7 @@ void main(){
     for(i=0;i<n;i++){
         if(a[i]>max){
             max=a[i];
+            second_max=max;
         }
         else if(a[i]>second_max&&a[i]!=max){
             second_max=a[i];
