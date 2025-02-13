@@ -34,10 +34,10 @@
 #include<limits.h>
 void main(){
     int i,n,max,second_max;
-    scanf("%d",n);
+    scanf("%d",&n);
     int a[n];
     for(i=0;i<n;i++){
-        scanf("%d",a[i]);
+        scanf("%d",&a[i]);
     }
     max=second_max=INT_MIN;
     for(i=0;i<n;i++){
