@@ -42,8 +42,9 @@ void main(){
     max=second_max=INT_MIN;
     for(i=0;i<n;i++){
         if(a[i]>max){
-            max=a[i];
             second_max=max;
+            max=a[i];
+            
         }
         else if(a[i]>second_max&&a[i]!=max){
             second_max=a[i];
