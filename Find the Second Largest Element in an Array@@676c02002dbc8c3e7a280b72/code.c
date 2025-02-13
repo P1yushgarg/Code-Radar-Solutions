@@ -31,7 +31,7 @@
 
 
 #include<stdio.h>
-#include<limit.h>
+#include<limits.h>
 void main(){
     int i,n,max,second_max;
     scanf("%d",n);
