@@ -12,6 +12,9 @@ void main(){
     {
         printf("Special Character");
     }
+    else if(ch=="5"){
+        printf("Digit");
+    }
     else{
         printf("Consonant");
     }
