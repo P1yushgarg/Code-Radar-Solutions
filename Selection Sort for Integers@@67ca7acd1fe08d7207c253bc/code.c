@@ -10,9 +10,9 @@ void selectionSort(int arr[ ],int n){
         }
     }
 }
-int selectionSort(int arr[ ],int n){
+void selectionSort(int arr[ ],int n){
     for(int i=0;i<n;i++){
-        return printf("%d",arr[i]);
+        printf("%d",arr[i]);
     }
 
 }
