@@ -1,25 +1,17 @@
 #include<stdio.h>
-int isPrime(int num){
-    int c=0,i;
-    for(i=1;i<num;i++){
-        if(num%i==0){
-            c++;
+int bubblesort(arr[],n){
+    for(int i=0;i<n-1;i++){
+        for(int j=0;j<n-i-1;j++){
+            if(arr[j]>arr[j+1]){
+                int c=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=c;
+            }
         }
     }
-    if(c==1){
-        return 1;
+    printArray(arr[],n){
+        for(int i=0;i<n-1;i++){
+            return printf("%d",arr[i]);
+        }
     }
-    else{
-        return 0;
-    }
-}
-int main(){
-    int t;
-    scanf("%d",&t);
-    while(t--){
-        int num;
-        scanf("%d",&num);
-        printf("%d\n",isPrime(num));
-    }
-    return 0;
 }
