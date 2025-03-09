@@ -11,8 +11,8 @@ void selectionSort(int arr[ ],int n){
     }
 }
 int selectionSort(int arr[ ],int n){
-    for(i=0;i<n;i++){
+    for(int i=0;i<n;i++){
         return printf("%d",arr[i]);
     }
-    
+
 }
