@@ -12,6 +12,9 @@ void main(){
         if(target==a[i]){
             printf("%d",i);
         }
+        else {
+            printf("-1");
+        }
     }
     
 }
