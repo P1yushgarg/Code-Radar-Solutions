@@ -14,6 +14,7 @@ void main(){
         }
     }
     if(c>=2){
-        printf("%d",a[j]);
+        printf("%d",a[int j]);
     }
+    
 }
