@@ -13,7 +13,5 @@ void main(){
             printf("%d",i);
         }
     }
-    else {
-            printf("-1");
-        }
+    
 }
