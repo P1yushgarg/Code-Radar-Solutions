@@ -14,6 +14,6 @@ void main(){
             break;
         }
     }
-    printf("%d",i);
+    printf("%d",found);
 
 }
