@@ -4,19 +4,21 @@ void main(){
     scanf("%d",&n);
     int a[n];
     for (int i=0;i<n;i++){
-        scanf("%d",a[i]);
+        scanf("%d",&a[i]);
     }
     int c=0,j;
     for(j=0;j<n;j++){
-    
-        if(a[j]==a[j+1]){
-            c++;
+        int count=0;
+        for(int j=0;j<n;j++){
+            if(a[i]==a[j]){
+            count++;
         }
+        }   
     }
-    if(c>=2){
+    if(count>c){
         printf("%d",a[j]);
     }
-    else(c<2){
+    else{
         printf("-1");
     }
     
