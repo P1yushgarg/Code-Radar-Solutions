@@ -2,7 +2,7 @@
 void main(){
     int n;
     scanf("%d",&n);
-    int a[n],i;
+    int a[n],i,found=-1;
     for( i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
@@ -10,8 +10,9 @@ void main(){
     scanf("%d",&target);
     for( i=0;i<n;i++){
         if(target==a[i]){
-            printf("%d",i);
+            found=i;
         }
     }
-    
+    printf("%d",i);
+
 }
