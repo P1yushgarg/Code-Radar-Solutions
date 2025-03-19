@@ -12,9 +12,8 @@ void main(){
         if(target==a[i]){
             printf("%d",i);
         }
-        else {
+    }
+    else {
             printf("-1");
         }
-    }
-    
 }
