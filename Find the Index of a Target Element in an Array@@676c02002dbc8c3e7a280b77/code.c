@@ -11,6 +11,7 @@ void main(){
     for( i=0;i<n;i++){
         if(target==a[i]){
             found=i;
+            break;
         }
     }
     printf("%d",i);
