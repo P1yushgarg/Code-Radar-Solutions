@@ -16,5 +16,8 @@ void main(){
     if(c>=2){
         printf("%d",a[j]);
     }
+    else(c<2){
+        printf("-1");
+    }
     
 }
