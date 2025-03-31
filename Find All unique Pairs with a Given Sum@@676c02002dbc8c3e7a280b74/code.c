@@ -3,7 +3,6 @@ void solve(int a[],int n,int t){
     for(int i=0;i<n;i++){
         if(a[i]+a[i+1]==t){
             printf("%d %d\n",a[i],a[i+1]);
-            return;
         }
         
     }
