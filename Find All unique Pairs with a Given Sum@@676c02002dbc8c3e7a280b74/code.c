@@ -5,6 +5,7 @@ void Sum(int arr[], int n, int T) {
         for (int j = i + 1; j < n; j++) { 
             if (arr[i] + arr[j] == T) {
                 printf("%d %d\n", arr[i], arr[j]); 
+                return; // Stop after printing the first pair
             }
         }
     }
