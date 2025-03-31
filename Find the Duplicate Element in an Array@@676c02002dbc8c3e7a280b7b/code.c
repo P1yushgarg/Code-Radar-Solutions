@@ -1,5 +1,5 @@
 #include<stdio.h>
-int solve(a[n],n){
+int solve(int a[],int n){
     int c,i,j;
     for( i=0;i<n;i++){
         c=0;
