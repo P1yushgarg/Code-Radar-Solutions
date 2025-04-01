@@ -12,7 +12,7 @@ int main(){
         a1[(i+k)%n]=a[i];
     }
     for(int i=0;i<n;i++){
-        printf("%d",a1[i]);
+        printf("%d ",a1[i]);
     }
     return 0;
     
