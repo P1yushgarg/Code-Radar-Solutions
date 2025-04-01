@@ -11,9 +11,8 @@ void main(){
     for(int i=0;i<n;i++){
         a1[(i+k)%n]=a[i];
     }
-    for(int i=0;i<n;i++){
-        printf("%d",a[i]);
-    }
+    printf("%d",a[i]);
+    
     
     
 }
