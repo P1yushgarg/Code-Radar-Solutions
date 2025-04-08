@@ -1,13 +1,13 @@
 int trackScores(int scores[],int n,int result[]){
     int i,high=0,low=0;
     for(i=1;i<n;i++){
-        int r=score[0];
+        int r=scores[0];
         if(score[i]>r){
-            high++;
+            result[high++];
         }
-        else if(score[i]<r){
-            low++;
+        else if(scores[i]<r){
+            result[low++];
         }
-        return low,high;
     }
+    return result;
 }
