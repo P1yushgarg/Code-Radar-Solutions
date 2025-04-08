@@ -7,6 +7,7 @@ int trackPlayerRanks(int ranked [],int n,int player[],int m,int result[]){
         if(ranked[i]>s){
             break;
         }
+            return i;
     }
-    return i;
+
 }
