@@ -6,7 +6,7 @@ int trackScores(int scores[],int n,int result[]){
 
     for(i=1;i<n;i++){
         if(high<scores[i]){
-            high=scores[i]
+            high=scores[i];
             result[0]++;
         }
         else if(low>scores[i]){
