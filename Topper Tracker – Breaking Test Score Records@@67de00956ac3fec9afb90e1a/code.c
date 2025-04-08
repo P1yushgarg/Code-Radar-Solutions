@@ -1,15 +1,17 @@
 int trackScores(int scores[],int n,int result[]){
-    int i,high=0,low=0;
+    int high=scores[0];
+    int low=scores[0];
+    result[0] = 0; // Count of high score breaks
+    result[1] = 0; // Count of low score breaks
+
     for(i=1;i<n;i++){
-        int r=scores[0];
-        if(scores[i]>r){
-            high++;
-            result[0]=high;
+        if(high<scores[i]){
+            high=scores[i]
+            result[0]++;
         }
-        else if(scores[i]<r){
-            low++;
-            result[1]=low;
+        else if(low>scores[i]){
+            low=scores[i];
+            result[1]++;
         }
     }
-    return result;
 }
