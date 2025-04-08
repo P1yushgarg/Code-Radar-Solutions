@@ -4,7 +4,7 @@ int trackScores(int scores[],int n,int result[]){
     result[0] = 0; // Count of high score breaks
     result[1] = 0; // Count of low score breaks
 
-    for(i=1;i<n;i++){
+    for(int i=1;i<n;i++){
         if(high<scores[i]){
             high=scores[i];
             result[0]++;
