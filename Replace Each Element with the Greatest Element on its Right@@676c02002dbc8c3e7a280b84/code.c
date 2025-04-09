@@ -22,5 +22,5 @@ int main(){
         printf("%d ",a[i]);
         
     }
-    printf(" %d",a[n]);
+    printf("%d",a[n]);
 }
