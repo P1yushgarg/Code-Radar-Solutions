@@ -8,7 +8,7 @@ int main(){
     }
     int max=a[0],maxindex=0;
     for(int i=0;i<n-1;i++){
-        a[n]="-1";
+        a[n]=-1;
         if(a[i]>max){
             max=a[i];
             a[i]=max;
@@ -19,6 +19,7 @@ int main(){
         a[i]=max;
     }
     for(int i=0;i<n-1;i++){
-        printf("%d %c",a[i],a[n]);
+        printf("%d",a[i]);
+        printf("%d",a[n]);
     }
 }
