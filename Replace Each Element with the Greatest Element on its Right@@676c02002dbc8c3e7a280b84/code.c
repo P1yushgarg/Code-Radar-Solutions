@@ -13,7 +13,7 @@ int main(){
             max=a[i];
             break;
             a[i]=max;
-            maxindex[i];
+            maxindex=i;
         }
     }
     for(int i=0;i<maxindex;i++){
