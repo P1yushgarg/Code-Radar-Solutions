@@ -18,7 +18,7 @@ int main(){
     for(int i=0;i<maxindex;i++){
         a[i]=max;
     }
-    for(int i=0;i<n;i++){
-        printf("%d ",a[i]);
+    for(int i=0;i<n-1;i++){
+        printf("%d %d",a[i],a[n]);
     }
 }
