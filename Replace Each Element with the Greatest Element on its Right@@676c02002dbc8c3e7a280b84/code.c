@@ -8,7 +8,7 @@ int main(){
     }
     
     for(int i=0;i<n;i++){
-        int max=0
+        int max=0;
         for(int j=i+1;j<n;j++){
             max=a[i+1];
             if(a[j]>max){
@@ -22,4 +22,5 @@ int main(){
 
     }
     printf("-1");
+    return 0;
 }
