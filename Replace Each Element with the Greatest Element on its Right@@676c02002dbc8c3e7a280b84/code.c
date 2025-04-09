@@ -15,7 +15,7 @@ int main(){
             maxindex=i;
         }
     }
-    for(int i=0;i<maxindex-1;i++){
+    for(int i=0;i<maxindex;i++){
         a[i]=max;
     }
     for(int i=0;i<n;i++){
