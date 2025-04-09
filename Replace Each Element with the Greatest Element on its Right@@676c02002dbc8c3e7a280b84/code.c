@@ -11,7 +11,6 @@ int main(){
         a[n]=-1;
         if(a[i]>max){
             max=a[i];
-            break;
             a[i]=max;
             maxindex=i;
         }
@@ -20,6 +19,6 @@ int main(){
         a[i]=max;
     }
     for(int i=0;i<n;i++){
-        printf("%d",a[i]);
+        printf(" %d",a[i]);
     }
 }
