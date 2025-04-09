@@ -6,21 +6,20 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    int max=a[0],maxindex=0;
-    for(int i=0;i<n-1;i++){
-        a[n]=-1;
-        if(a[i]>max){
-            max=a[i];
-            a[i]=max;
-            maxindex=i;
+    
+    for(int i=0;i<n;i++){
+        int max=0
+        for(int j=i+1;j<n;j++){
+            max=a[i+1];
+            if(a[j]>max){
+                max=a[j];
+            }
         }
-    }
-    for(int i=0;i<maxindex;i++){
         a[i]=max;
     }
     for(int i=0;i<n-1;i++){
         printf("%d ",a[i]);
-        
+
     }
-    printf("%d",a[n]);
+    printf("-1");
 }
