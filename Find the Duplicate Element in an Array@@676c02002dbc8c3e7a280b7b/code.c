@@ -10,7 +10,7 @@ int solve(int a[],int n){
         }
     }
     if(c>=1){
-        printf("%d",a[j]);
+        printf("%d",a[i]);
     }
 }
 int main(){
