@@ -9,7 +9,7 @@ int solve(int a[],int n){
             }
         }
     }
-    if(c>=1){
+    if(c>1){
         printf("%d",a[i]);
     }
 }
