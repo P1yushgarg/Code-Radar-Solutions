@@ -1,16 +1,12 @@
 #include<stdio.h>
 int solve(int a[],int n){
-    int c,i,j;
+    int i,j;
     for( i=0;i<n;i++){
-        c=0;
         for( j=1;j<n;j++){
             if(a[i]==a[j]){
-                c++;
+                printf("%d",a[i]);
             }
         }
-    }
-    if(c>1){
-        printf("%d",a[i]);
     }
 }
 int main(){
